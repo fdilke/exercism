@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74ea1ad1-e101-449c-ab78-99ab1bb740a3" name="Default" comment="" />
+    <list default="true" id="438b36f1-3897-4dd6-b995-952276065e41" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PigLatin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flatten-array/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flatten-array/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,39 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FlattenerTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/kotlin/FlattenerTest.kt">
+      <file leaf-file-name="PigLatinTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/PigLatinTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="63">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Flattener.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Flattener.kt">
+      <file leaf-file-name="PigLatin.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/PigLatin.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="336">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Iterables.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.0/180a4946e471f9f47d4b6139c5dbc5e7603a8424/kotlin-stdlib-1.2.0-sources.jar!/kotlin/collections/Iterables.kt">
+      <file leaf-file-name="_Strings.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.0/180a4946e471f9f47d4b6139c5dbc5e7603a8424/kotlin-stdlib-1.2.0-sources.jar!/generated/_Strings.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+            <state relative-caret-position="289">
+              <caret line="810" column="17" selection-start-line="810" selection-start-column="17" selection-end-line="810" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -64,6 +58,11 @@
         <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>xist</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -84,14 +83,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="flatten-array" />
+              <option name="name" value="pig-latin" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="flatten-array" />
+                <option name="name" value="pig-latin" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -105,7 +104,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'flatten-array'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'pig-latin'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -115,7 +114,7 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'flatten-array'." />
+                <option name="description" value="Displays the sub-projects of root project 'pig-latin'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -125,12 +124,12 @@
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'flatten-array'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'pig-latin'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'flatten-array'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'pig-latin'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -155,7 +154,7 @@
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'flatten-array'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'pig-latin'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -165,7 +164,7 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'flatten-array'." />
+                <option name="description" value="Displays the tasks runnable from root project 'pig-latin'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -190,7 +189,7 @@
                 <option name="name" value="compileTestKotlin" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'flatten-array'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'pig-latin'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -215,7 +214,7 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'flatten-array'." />
+                <option name="description" value="Displays all dependencies declared in root project 'pig-latin'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -245,7 +244,7 @@
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'flatten-array'." />
+                <option name="description" value="Displays the properties of root project 'pig-latin'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -256,7 +255,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3043302210000" />
+        <entry key="$PROJECT_DIR$" value="3043307592000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3606653524" />
       </map>
@@ -305,7 +304,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="flatten-array" />
+              <option name="name" value="pig-latin" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-tooling-api-4.4.jar" />
@@ -398,7 +397,7 @@
         <entry key="$PROJECT_DIR$/../collatz-conjecture" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../diamond" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../difference-of-squares" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../flatten-array" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../gigasecond" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../grains" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../hamming" value="PREVIEW" />
@@ -409,6 +408,7 @@
         <entry key="$PROJECT_DIR$/../nth-prime" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../pangram" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../perfect-numbers" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="IMPORT" />
         <entry key="$PROJECT_DIR$/../raindrops" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../rna-transcription" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../saddle-points" value="PREVIEW" />
@@ -434,8 +434,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/kotlin/Flattener.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/FlattenerTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/PigLatin.kt" />
       </list>
     </option>
   </component>
@@ -458,81 +457,81 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="flatten-array" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flatten-array" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pig-latin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pig-latin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="flatten-array" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flatten-array" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pig-latin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pig-latin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flatten-array" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flatten-array" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pig-latin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pig-latin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="flatten-array" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flatten-array" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pig-latin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pig-latin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flatten-array" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flatten-array" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pig-latin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pig-latin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="flatten-array" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flatten-array" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="pig-latin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pig-latin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flatten-array" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pig-latin" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
-              <item name="flatten-array" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="flatten-array" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pig-latin" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="kotlin-stdlib-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flatten-array" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pig-latin" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" type="70bed36:NamedLibraryElementNode" />
               <item name="kotlin-stdlib-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="flatten-array" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pig-latin" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" type="70bed36:NamedLibraryElementNode" />
               <item name="kotlin-stdlib-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pig-latin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="kotlin-stdlib-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -560,12 +559,12 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FlattenerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="flatten-array_test" />
+    <configuration name="PigLatinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pig-latin_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FlattenerTest" />
+      <option name="MAIN_CLASS_NAME" value="PigLatinTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -688,7 +687,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FlattenerTest" />
+        <item itemvalue="JUnit.PigLatinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -705,40 +704,49 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="74ea1ad1-e101-449c-ab78-99ab1bb740a3" name="Default" comment="" />
-      <created>1521651152702</created>
+      <changelist id="438b36f1-3897-4dd6-b995-952276065e41" name="Default" comment="" />
+      <created>1521653818393</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1521651152702</updated>
-      <workItem from="1521651154292" duration="2670000" />
+      <updated>1521653818393</updated>
+      <workItem from="1521653819983" duration="5363000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FlattenerTest - 2018.03.21 at 17h 02m 22s.xml">
-      <configuration name="FlattenerTest" configurationId="JUnit" />
+    <history-entry file="PigLatinTest - 2018.03.26 at 12h 18m 45s.xml">
+      <configuration name="PigLatinTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlattenerTest - 2018.03.21 at 17h 02m 42s.xml">
-      <configuration name="FlattenerTest" configurationId="JUnit" />
+    <history-entry file="PigLatinTest - 2018.03.26 at 12h 21m 03s.xml">
+      <configuration name="PigLatinTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlattenerTest - 2018.03.21 at 17h 14m 55s.xml">
-      <configuration name="FlattenerTest" configurationId="JUnit" />
+    <history-entry file="PigLatinTest - 2018.03.26 at 12h 21m 43s.xml">
+      <configuration name="PigLatinTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlattenerTest - 2018.03.21 at 17h 21m 56s.xml">
-      <configuration name="FlattenerTest" configurationId="JUnit" />
+    <history-entry file="PigLatinTest - 2018.03.26 at 12h 22m 23s.xml">
+      <configuration name="PigLatinTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlattenerTest - 2018.03.21 at 17h 23m 16s.xml">
-      <configuration name="FlattenerTest" configurationId="JUnit" />
+    <history-entry file="PigLatinTest - 2018.03.26 at 12h 24m 58s.xml">
+      <configuration name="PigLatinTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlattenerTest - 2018.03.21 at 17h 23m 31s.xml">
-      <configuration name="FlattenerTest" configurationId="JUnit" />
+    <history-entry file="PigLatinTest - 2018.03.26 at 12h 30m 38s.xml">
+      <configuration name="PigLatinTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlattenerTest - 2018.03.21 at 17h 23m 43s.xml">
-      <configuration name="FlattenerTest" configurationId="JUnit" />
+    <history-entry file="PigLatinTest - 2018.03.26 at 12h 33m 47s.xml">
+      <configuration name="PigLatinTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PigLatinTest - 2018.03.26 at 12h 34m 39s.xml">
+      <configuration name="PigLatinTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PigLatinTest - 2018.03.26 at 13h 40m 33s.xml">
+      <configuration name="PigLatinTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PigLatinTest - 2018.03.26 at 13h 41m 01s.xml">
+      <configuration name="PigLatinTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2670000" />
+    <option name="totallyTimeSpent" value="5363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="2560" height="1415" extended-state="6" />
@@ -759,12 +767,12 @@
       <window_info id="UI Designer" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32943925" />
+      <window_info anchor="bottom" id="Messages" weight="0.3299532" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32943925" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299532" />
+      <window_info anchor="bottom" id="Version Control" weight="0.3299532" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980111" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
@@ -783,36 +791,54 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/PigLatinTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.0/180a4946e471f9f47d4b6139c5dbc5e7603a8424/kotlin-stdlib-1.2.0-sources.jar!/kotlin/collections/Iterables.kt">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.0/180a4946e471f9f47d4b6139c5dbc5e7603a8424/kotlin-stdlib-1.2.0-sources.jar!/generated/_Strings.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+        <state relative-caret-position="289">
+          <caret line="810" column="17" selection-start-line="810" selection-start-column="17" selection-end-line="810" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/FlattenerTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/PigLatin.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/Flattener.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="336">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
