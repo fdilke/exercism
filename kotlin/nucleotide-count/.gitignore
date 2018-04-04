@@ -2,3 +2,5 @@
 out/
 gradle/
 .keep
+.gradle/
+build/
