@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df9d8e34-76c0-4730-8283-b13c90a1718e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PhoneNumber.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/PhoneNumberTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/PhoneNumberTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -41,17 +34,26 @@
       <file leaf-file-name="PhoneNumberTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/PhoneNumberTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="552">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhoneNumber.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhoneNumber.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/PhoneNumber.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+            <state relative-caret-position="663">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -436,8 +438,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/kotlin/PhoneNumberTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/PhoneNumber.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/PhoneNumberTest.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -691,20 +694,19 @@
       <workItem from="1522312695209" duration="1802000" />
       <workItem from="1522340386408" duration="398000" />
       <workItem from="1522340847659" duration="985000" />
-      <workItem from="1522833127379" duration="2998000" />
+      <workItem from="1522833127379" duration="3272000" />
     </task>
+    <task id="LOCAL-00001" summary="completed phone number exercise">
+      <created>1522840315703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522840315703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PhoneNumberTest - 2018.04.04 at 11h 57m 01s.xml">
-      <configuration name="PhoneNumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PhoneNumberTest - 2018.04.04 at 12h 01m 18s.xml">
-      <configuration name="PhoneNumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PhoneNumberTest - 2018.04.04 at 12h 01m 34s.xml">
-      <configuration name="PhoneNumberTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PhoneNumberTest - 2018.04.04 at 12h 02m 08s.xml">
       <configuration name="PhoneNumberTest" configurationId="JUnit" />
     </history-entry>
@@ -726,9 +728,18 @@
     <history-entry file="PhoneNumberTest - 2018.04.04 at 12h 08m 34s.xml">
       <configuration name="PhoneNumberTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PhoneNumberTest - 2018.04.04 at 12h 10m 29s.xml">
+      <configuration name="PhoneNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberTest - 2018.04.04 at 12h 11m 19s.xml">
+      <configuration name="PhoneNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PhoneNumberTest - 2018.04.04 at 12h 11m 28s.xml">
+      <configuration name="PhoneNumberTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8793000" />
+    <option name="totallyTimeSpent" value="9067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="2560" height="1415" extended-state="6" />
@@ -753,10 +764,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299532" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299532" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20525059" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20525059" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -775,6 +786,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed phone number exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed phone number exercise" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -825,17 +840,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/PhoneNumberTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/PhoneNumber.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="663">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/PhoneNumber.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/PhoneNumberTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        <state relative-caret-position="552">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
