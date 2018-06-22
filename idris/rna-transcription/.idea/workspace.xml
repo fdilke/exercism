@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8a023bc-af14-42c3-b8ff-aaa76483ff73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RnaTranscription.ipkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rna-transcription.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scratch.idr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RnaTranscription.idr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/RnaTranscription.idr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/classes/kotlin/main/HelloWorldKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/classes/kotlin/main/META-INF/hello-world.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/classes/kotlin/test/HelloWorldTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin-build/artifact-difference.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin-build/artifact-difference.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin-build/artifact-difference.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin-build/artifact-difference.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin-build/artifact-difference.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin-build/artifact-difference.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin-build/artifact-difference.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-snapshot.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-snapshot.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-snapshot.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-snapshot.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-snapshot.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-snapshot.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-snapshot.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/data-container-format-version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/format-version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/gradle-format-version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/build-history.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-snapshot.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-snapshot.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-snapshot.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-snapshot.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-snapshot.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-snapshot.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-snapshot.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/data-container-format-version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/format-version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/gradle-format-version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/kotlin/compileTestKotlin/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/libs/hello-world.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/reports/tests/test/classes/HelloWorldTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/test-results/test/TEST-HelloWorldTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/hello-world/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/leap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/leap/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/leap/src/main/kotlin/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/leap/src/test/kotlin/LeapTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/saddle-points/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.gradle/4.4/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.idea/modules/spiral-matrix_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.idea/modules/spiral-matrix_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/build/kotlin-build/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/src/main/kotlin/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/spiral-matrix/src/test/kotlin/SpiralMatrixTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/word-count/build/kotlin-build/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/word-count/out/production/classes/WordCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/word-count/out/test/classes/WordCountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/hello-world/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/saddle-points/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/saddle-points/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/saddle-points/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/saddle-points/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/saddle-points/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/saddle-points/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/saddle-points/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/saddle-points/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/saddle-points/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/saddle-points/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1065174449">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Makefile" value="1" />
+          <entry key="idr" value="3" />
+          <entry key="iml" value="1" />
+          <entry key="ipkg" value="1" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="idr" value="934" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="934" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RnaTranscription.ipkg">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RnaTranscription.idr">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test/RnaTranscription.idr">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="74" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scratch.idr">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="829">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rna-transcription.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../kotlin/acronym" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/atbash-cipher" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/collatz-conjecture" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/diamond" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/difference-of-squares" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/flatten-array" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/gigasecond" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/grains" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/hamming" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/hello-world" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/isogram" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/largest-series-product" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/luhn" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/nth-prime" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/nucleotide-count" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/pangram" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/perfect-numbers" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/phone-number" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/pig-latin" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/raindrops" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/rna-transcription" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/saddle-points" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/scrabble-score" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/secret-handshake" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/sieve" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/space-age" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/spiral-matrix" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/sum-of-multiples" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/triangle" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/two-fer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kotlin/word-count" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/content-api" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/counter-reports" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/djdirge" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/knowledge-graph" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/knowledge-graph/lib/scala/kg-add-lod-site-mappings" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/knowledge-graph/lib/scala/kg-copy-data-to-es" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/knowledge-graph/lib/scala/kg-generate-lod-site-mappings" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/knowledge-graph/lib/scala/kg-update-data-in-es" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/mathsearch" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/muzurphus" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/oscar" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scratch.idr" />
+        <option value="$PROJECT_DIR$/src/RnaTranscription.idr" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2560" />
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectUserFactors">
+    <factor id="binaryFeature:liftShorter" />
+    <factor id="binaryFeature:liftShorterClasses" />
+    <factor id="binaryFeature:middleMatching" />
+    <factor id="binaryFeature:nonGeneric" />
+    <factor id="binaryFeature:prox_inResolveScope" />
+    <factor id="binaryFeature:prox_openedInEditor" />
+    <factor id="binaryFeature:prox_sameDirectory" />
+    <factor id="binaryFeature:prox_sameLogicalRoot" />
+    <factor id="binaryFeature:prox_sdkOrLibrary" />
+    <factor id="binaryFeature:templates" />
+    <factor id="categoricalFeature:accessible" />
+    <factor id="categoricalFeature:expectedType" />
+    <factor id="categoricalFeature:kind" />
+    <factor id="categoricalFeature:prox_groovyReferenceListWeigher" />
+    <factor id="categoricalFeature:prox_javaInheritance" />
+    <factor id="categoricalFeature:prox_referenceList" />
+    <factor id="categoricalFeature:recursion" />
+    <factor id="completionFinishedType">
+      <dailyData date="22-6-2018">
+        <observation name="cancelled" value="552.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType" />
+    <factor id="completionUsage">
+      <dailyData date="22-6-2018">
+        <observation name="count" value="552.0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:explicitProximity" />
+    <factor id="doubleFeature:grouping" />
+    <factor id="doubleFeature:mostUsed" />
+    <factor id="doubleFeature:nameEnd" />
+    <factor id="doubleFeature:position" />
+    <factor id="doubleFeature:prefix" />
+    <factor id="doubleFeature:priority" />
+    <factor id="doubleFeature:prox_explicitlyImported" />
+    <factor id="doubleFeature:prox_knownElement" />
+    <factor id="doubleFeature:prox_sameModule" />
+    <factor id="doubleFeature:prox_samePsiMember" />
+    <factor id="doubleFeature:query_length" />
+    <factor id="doubleFeature:result_length" />
+    <factor id="doubleFeature:sameWords" />
+    <factor id="doubleFeature:shorter" />
+    <factor id="doubleFeature:simple" />
+    <factor id="doubleFeature:sorter" />
+    <factor id="doubleFeature:statics" />
+    <factor id="doubleFeature:stats" />
+    <factor id="itemPosition" />
+    <factor id="mnemonicsUsage" />
+    <factor id="prefixLength" />
+    <factor id="timeBetweenTyping" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rna-transcription" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rna-transcription" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rna-transcription" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rna-transcription" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rna-transcription" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rna-transcription" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1529685649694" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/repos/akka-cloudpubsub" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/bewl" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/botch" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/bunsen" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/content-builders" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/core" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/scala-exps" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/springerlink-akka-example" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/springerlink-akka-experiments" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/springerlink-eventtracker" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/springerlink-video" value="PREVIEW" />
+        <entry key="$USER_HOME$/repos/springerlink-xslt-service" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8a023bc-af14-42c3-b8ff-aaa76483ff73" name="Default Changelist" comment="" />
+      <created>1529655929558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529655929558</updated>
+      <workItem from="1529655931714" duration="13942000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13942000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2560" y="-2" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21237993" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rna-transcription.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RnaTranscription.ipkg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch.idr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RnaTranscription.idr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/RnaTranscription.idr">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="74" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
