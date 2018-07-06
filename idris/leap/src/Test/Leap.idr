@@ -1,6 +1,6 @@
 module Test.Leap
 
-import Test.Assertions
+import Test.Unit.Assertions
 import System
 
 import Leap
