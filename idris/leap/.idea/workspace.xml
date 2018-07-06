@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52422b43-6f88-4237-be9d-7e34f7b3fc2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/hamming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leap.ipkg" beforeDir="false" afterPath="$PROJECT_DIR$/Leap.ipkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leap.idr" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leap.idr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Leap.idr" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Leap.idr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/accumulate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hamming/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rna-transcription/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rna-transcription/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -278,7 +270,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1530887433965" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1530893421453" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -351,15 +343,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530869384562</updated>
-      <workItem from="1530869385954" duration="7405000" />
+      <workItem from="1530869385954" duration="8329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7405000" />
+    <option name="totallyTimeSpent" value="8329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="2560" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />

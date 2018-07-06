@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8a023bc-af14-42c3-b8ff-aaa76483ff73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hamming/hamming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leap/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leap/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leap/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leap/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leap/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leap/leap.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leap/Leap.ipkg" beforeDir="false" afterPath="$PROJECT_DIR$/../leap/Leap.ipkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leap/src/Leap.idr" beforeDir="false" afterPath="$PROJECT_DIR$/../leap/src/Leap.idr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leap/src/Test/Leap.idr" beforeDir="false" afterPath="$PROJECT_DIR$/../leap/src/Test/Leap.idr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accumulate/accumulate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hamming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hamming/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leap/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -311,15 +303,16 @@
       <option name="presentableId" value="Default" />
       <updated>1529655929558</updated>
       <workItem from="1529655931714" duration="14559000" />
-      <workItem from="1530869342085" duration="5002000" />
+      <workItem from="1530869342085" duration="6090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19561000" />
+    <option name="totallyTimeSpent" value="20649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="2560" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15990454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
